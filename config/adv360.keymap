@@ -66,31 +66,31 @@
 
         layer_4 {
             bindings = <
-&trans  &trans     &trans                &trans                 &trans     &trans      &trans                                      &trans  &trans  &trans            &trans             &trans          &trans           &trans
-&trans  &trans     &kp PERCENT           &kp PLUS               &kp PLUS   &trans      &trans                                      &trans  &trans  &kp PIPE          &kp UNDERSCORE     &kp ASTERISK    &kp AMPERSAND    &trans
-&trans  &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp DOLLAR  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &kp AT     &kp EXCLAMATION       &kp CARET              &trans     &trans                      &trans      &trans                  &trans  &kp BACKSLASH     &kp HASH           &kp GRAVE       &kp TILDE        &trans
-&trans  &trans     &trans                &trans                 &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans            &trans             &trans          &trans           &trans
+&trans  &trans       &trans                &trans                 &trans  &trans  &trans                                                 &trans             &trans      &trans            &trans             &trans          &trans           &trans
+&trans  &trans       &kp EQUAL             &kp PLUS               &trans  &trans  &trans                                                 &trans             &trans      &kp PIPE          &kp UNDERSCORE     &kp ASTERISK    &kp AMPERSAND    &trans
+&trans  &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans   &trans  &trans           &trans       &trans  &trans             &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans  &kp PERCENT  &kp EXCLAMATION       &kp CARET              &trans  &trans                   &trans           &trans                                  &trans      &kp BACKSLASH     &kp HASH           &kp GRAVE       &kp TILDE        &trans
+&trans  &trans       &trans                &trans                 &trans          &kp SQT  &trans  &kp AT_SIGN      &kp PERCENT  &trans  &kp DOUBLE_QUOTES              &trans            &trans             &trans          &trans           &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans     &trans   &trans             &trans  &trans                                      &trans  &trans  &trans          &trans        &trans          &trans     &trans
-&trans  &trans  &trans     &trans   &trans             &trans  &trans                                      &trans  &trans  &trans          &trans        &trans          &trans     &trans
-&trans  &trans  &kp EQUAL  &kp SQT  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans     &trans   &trans             &trans                  &trans      &trans                  &trans  &trans          &trans        &trans          &trans     &trans
-&trans  &trans  &trans     &trans   &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans        &trans          &trans     &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &trans          &kp RIGHT_ARROW  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &kp DOWN_ARROW  &trans           &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &trans  &trans                                      &trans  &trans  &trans        &trans        &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans  &trans                                      &trans  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
-&trans  &trans  &trans  &kp N0  &kp NUMBER_4  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans                  &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                      &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &kp PERIOD  &trans  &trans      &trans  &trans  &kp N0          &trans        &trans        &trans        &trans  &trans
             >;
         };
     };
