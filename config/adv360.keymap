@@ -66,11 +66,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans       &trans                &trans                 &trans  &trans  &trans                                                 &trans             &trans      &trans            &trans             &trans          &trans           &trans
-&trans  &trans       &kp EQUAL             &kp PLUS               &trans  &trans  &trans                                                 &trans             &trans      &kp PIPE          &kp UNDERSCORE     &kp ASTERISK    &kp AMPERSAND    &trans
-&trans  &kp MINUS    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans   &trans  &trans           &trans       &trans  &trans             &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &kp PERCENT  &kp EXCLAMATION       &kp CARET              &trans  &trans                   &trans           &trans                                  &trans      &kp BACKSLASH     &kp HASH           &kp GRAVE       &kp TILDE        &trans
-&trans  &trans       &trans                &trans                 &trans          &kp SQT  &trans  &kp AT_SIGN      &kp PERCENT  &trans  &kp DOUBLE_QUOTES              &trans            &trans             &trans          &trans           &trans
+&trans  &trans     &trans                &trans                 &trans  &trans  &trans                                                 &trans             &trans      &trans            &trans             &trans          &trans           &trans
+&trans  &trans     &kp EQUAL             &kp PLUS               &trans  &trans  &trans                                                 &trans             &trans      &kp PIPE          &kp UNDERSCORE     &kp ASTERISK    &kp AMPERSAND    &trans
+&trans  &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans   &trans  &trans           &trans       &trans  &trans             &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans  &kp SLASH  &kp EXCLAMATION       &kp CARET              &trans  &trans                   &trans           &trans                                  &trans      &kp BACKSLASH     &kp HASH           &kp GRAVE       &kp TILDE        &trans
+&trans  &trans     &trans                &trans                 &trans          &kp SQT  &trans  &kp AT_SIGN      &kp PERCENT  &trans  &kp DOUBLE_QUOTES              &trans            &trans             &trans          &trans           &trans
             >;
         };
 
