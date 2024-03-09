@@ -84,11 +84,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans         &kp EQUAL             &kp SLASH              &trans  &trans  &trans                                      &trans  &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans                                      &trans  &kp TILDE    &kp N8        &kp NUMBER_9  &kp ASTERISK  &kp MINUS     &trans
-&trans  &kp LESS_THAN  &kp GREATER_THAN      &kp PERIOD             &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp PLUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7        &trans
-&trans  &trans         &trans                &trans                 &trans  &trans                  &trans      &trans                  &kp PERCENT  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &trans         &trans                &trans                 &trans          &trans  &trans  &trans      &trans  &trans  &trans               &trans        &trans        &trans        &trans        &trans
+&trans  &trans         &kp EQUAL         &kp SLASH          &trans  &trans  &trans                                      &trans  &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans                                      &trans  &kp TILDE    &kp N8        &kp NUMBER_9  &kp ASTERISK  &kp MINUS     &trans
+&trans  &kp LESS_THAN  &kp PERIOD        &kp COMMA          &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp PLUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7        &trans
+&trans  &trans         &trans            &trans             &trans  &trans                  &trans      &trans                  &kp PERCENT  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &trans         &trans            &trans             &trans          &trans  &trans  &trans      &trans  &trans  &trans               &trans        &trans        &trans        &trans        &trans
             >;
         };
     };
